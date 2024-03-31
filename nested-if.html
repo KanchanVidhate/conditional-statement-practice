@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title> JS </title>
+ </head>
+ <body>
+  <script>
+  const internal_marks =parseFloat(prompt("Enter internal marks:"));
+  const Final_marks = parseFloat(prompt("Enter final Exam marks:"))
+
+  if(internal_marks>=7)
+  {
+    console.log("PASS in  Internal Exam.");
+    if(Final_marks>=35)
+    {
+       console.log("PASS in Final Exam.");
+    }
+    else
+    {
+       console.log("FAIL in Final Exam.");
+    }
+  }
+  else
+  {
+    console.log("FAIL in Internal Exam.")
+  }
+  </script>
+ </body>
+</html>
