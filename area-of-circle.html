@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calCircleArea</title>
+</head>
+<script>
+    // 1. Argument but no Return function//
+
+    function calCircleArea(r) {
+        
+        const PI= 3.14 ;
+        const radius = PI* r * r;
+
+  console.log(`Area of Circle : ${radius}`);
+}
+calCircleArea(30);
+</script>
+
+ <script>
+    //2.Argument and Return function//
+    function calCircleArea(r) {
+        
+        const PI= 3.14 ;
+        const radius = PI* r * r;
+        return radius ;
+}
+const calArea = calCircleArea(12);
+console.log(`Area of Circle : ${calArea}`);
+</script>
+
+<script>
+    //3. No Argument but No Return //
+
+const radiusValue = 20;
+function calCircleArea() {    
+    const PI= 3.14 ;
+    const radius = PI * radiusValue * radiusValue;
+console.log(`Area of Circle : ${radius}`);
+}
+calCircleArea();
+</script>
+
+
+<script>
+    //4. No Argument but Return Function //
+
+    const rValue = 56;
+function calCircleArea() {    
+    const PI= 3.14 ;
+    const rds = PI * rValue * rValue;
+return rds ;
+}
+const Arug = calCircleArea();
+console.log(`Area of Circle : ${Arug}`);
+
+</script>
+<body>
+   Task Complete  using Functios 
+</body>
+</html>
